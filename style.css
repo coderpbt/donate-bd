@@ -6,12 +6,15 @@ body {
   font-size: 16px;
 }
 
+
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
+section,
 p {
   margin: 0;
   padding: 0;
@@ -48,6 +51,16 @@ a:hover {
 .header-main-content {
   text-align: center;
 }
+
+.our-story-main-flex.our-story-main-flex22 {
+  margin-top: -13px;
+}
+
+.our-story-main-flex.our-story-main-flex22 .our-story-right {
+  padding: 76px 0px;
+}
+
+
 
 .header-main-content h1 {
   font-style: normal;
@@ -245,6 +258,67 @@ section.our-donate-plan-area .common-heading p {
   color: #121212;
   display: block;
   padding: 10px 0px;
+}
+
+/**************************************/
+/************Our story Area Css*************/
+/************************************/
+.our-story-area {
+  overflow: hidden;
+  padding-bottom: 90px;
+}
+
+.our-story-main-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.our-story-left img {
+  width: 100%;
+  height: auto;
+}
+
+.our-story-left {
+  flex: 0 0 50%;
+}
+
+.our-story-right {
+  flex: 0 0 50%;
+  padding-left: 50px;
+}
+
+.our-story-right h3 {
+  font-size: 42px;
+}
+
+.our-story-right p {
+  color: #000;
+  text-align: left;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.our-story-main-flex22 .our-story-right h3,
+.our-story-main-flex22 .our-story-right span,
+.our-story-main-flex22 .our-story-right p {
+  padding-left: 50px;
+  color: #fff;
+}
+
+.our-story-main-flex.our-story-main-flex22 .our-story-right a.donate-btn {
+  margin-left: 50px;
+}
+
+.our-story-right .donate-btn:hover {
+  color: #000;
+}
+
+.our-story-main-flex22 .our-story-right {
+  background: url('images/blue.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /**************************************/
